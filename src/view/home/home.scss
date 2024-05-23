@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'AVELIRE';
+  src: url('../../assets/font/AVELIRE.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-page='home'] {
+  font-family: 'AVELIRE';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  .div-titles {
+    text-align: center;
+    width: 50%;
+    .bigTitle {
+      font-size: 160px;
+      margin: 0;
+    }
+    .subTitle {
+      font-size: 37px;
+    }
+    button {
+      background: transparent;
+      width: 177px;
+      height: 63px;
+      color: white;
+      border-color: white;
+      border-style: solid;
+      font-weight: 700;
+      font-size: 15px;
+    }
+  }
+  .div-img {
+    margin-top: 30px;
+    img {
+      border-radius: 7px;
+    }
+  }
+}
