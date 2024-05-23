@@ -7,7 +7,7 @@ const header = () => {
 
   return (
     <section data-page="header">
-      <div className='brand-name'>cool brand</div>
+      <div className='brand-name'  onClick={() => navigate('/')}>cool brand</div>
       <div className="buttons">
         <a onClick={() => navigate('/')}>HOME</a>
         <a onClick={() => navigate("/shop")}>SHOP</a>

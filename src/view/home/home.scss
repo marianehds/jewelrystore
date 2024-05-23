@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #51565b;
   .div-titles {
     text-align: center;
     width: 50%;
@@ -20,16 +20,18 @@
     }
     .subTitle {
       font-size: 37px;
+      // color: #51565b;
     }
     button {
       background: transparent;
       width: 177px;
       height: 63px;
-      color: white;
-      border-color: white;
+      color: #51565b;
+      border-color: #51565b;
       border-style: solid;
       font-weight: 700;
       font-size: 15px;
+      cursor: pointer;
     }
   }
   .div-img {

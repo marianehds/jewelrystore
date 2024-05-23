@@ -1,3 +1,54 @@
-
 [data-page='join-team'] {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90vh;
+  .vacancies {
+    color: #51565b;
+    text-align: center;
+    :first-child {
+      font-size: 50px;
+      margin-bottom: 75px;
+    }
+    .not-found {
+      height: 60px;
+      border-radius: 50px;
+      margin-bottom: 80px;
+    }
+    input {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #51565b;
+      height: 40px;
+      width: 100%;
+      text-align: center;
+      &:focus-visible {
+        outline: none;
+        background-color: rgb(228, 236, 245);
+        border-radius: 10px 10px 0px 1px;
+      }
+    }
+  }
+  .img-join-team {
+    margin-top: 20px;
+    img {
+      height: 500px;
+      border-radius: 80px 0 80px 0;
+    }
+  }
+  button {
+    background: transparent;
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 20px;
+    color: #51565b;
+    border: 1px solid #a2abb5;
+    border-radius: 4px;
+    &:hover {
+      background-color: #a2abb5;
+      border: none;
+    }
+  }
 }

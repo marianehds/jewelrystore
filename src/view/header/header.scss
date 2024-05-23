@@ -3,7 +3,10 @@
   display: flex;
   justify-content: space-between;
   padding: 15px;
-  background-color: #ffffff47;
+  background-color: rgb(228 236 245);
+  z-index: 1000;
+  position: relative;
+
   .brand-name {
     font-weight: bold;
     font-size: 22px;

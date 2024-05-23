@@ -11,8 +11,8 @@ const home = () => {
     <section data-page="home">
       <div className='div-titles'>
         <h1 className='bigTitle'>ELEVE SEUS NEGÓCIOS</h1>
-        <h3  className='subTitle'>TEMPLATE DE SITE DE VAREJO</h3>
-        <button type="button" onClick={() => navigate("/shop")}>COMPRE JÁ</button>
+        <h3 className='subTitle'>TEMPLATE DE SITE DE VAREJO</h3>
+        <button type="button" onClick={() => navigate("/shop")}>SHOP NOW</button>
       </div>
       <div className='div-img'>
         <img src={MinhaImagem} alt="Minha Imagem" />
